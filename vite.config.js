@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: "/KLCHY_HAPPY_BIRTH_DAY",
+  base: "/KLCHY_HAPPY_BIRTH_DAY/",
 })
