@@ -10,15 +10,15 @@ export default function Menu() {
   const gifts = [
     {
       route: "happybirthday",
-      img: {happybirthday},
+      img: happybirthday,
     },
     {
       route: "GiftVideo",
-      img: {GiftVideo},
+      img: GiftVideo,
     },
     {
       route: "notepage",
-      img: {notepage},
+      img: notepage,
     },
   ];
 
