@@ -10,7 +10,7 @@ import NotePage from './Pages/Note.jsx'
 import MemorySite from './Pages/MemorySite.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/KLCHY_HAPPY_BIRTH_DAY">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/menupage" element={<Menu />} />
