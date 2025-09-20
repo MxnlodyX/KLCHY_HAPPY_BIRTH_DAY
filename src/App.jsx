@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
+import {Cake} from './src/assets/a3f186387eb5237d79bd9b520c681ada.gif'
 import './Pages/Styles/Menu.css'
 import './App.css'
 export default function App() {
@@ -28,7 +29,7 @@ export default function App() {
     <div className="w-full min-h-screen flex justify-center items-center pink-gradient">
       <div className="flex flex-col justfity-center items-center">
         <h1 className='font-mono font-bold text-6xl mb-3 animate-bounce'></h1>
-        <img className="w-40 h-40 object-contain mb-2" src="./src/assets/a3f186387eb5237d79bd9b520c681ada.gif" alt="" />
+        <img className="w-40 h-40 object-contain mb-2" src={Cake} alt="" />
         <h1 className='font-mono font-bold text-white text-5xl mb-3 animate-bounce double-layer outline-text'>Kulchaya Day</h1>
         <h3 className='font-mono text-2xl text-white mb-5 animate-pulse'>Hint : Password is your birthdate </h3>
         <div className="flex gap-2 w-100 mb-5 p-3 bg-gray-700 rounded-sm flex items-center justify-between">

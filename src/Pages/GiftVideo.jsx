@@ -1,5 +1,6 @@
 import { useState } from "react";
-import MisicPopUp from './Music'
+import MisicPopUp from './Music';
+import {GiftBox} from '../src/assets/box-gif.gif';
 export default function GiftVideo() {
   const [isOpen, setIsOpen] = useState(false);
   const [popUp, setClosePopup] = useState(true);
@@ -10,7 +11,7 @@ export default function GiftVideo() {
         onClick={() => setIsOpen(true)}
       >
 
-        <img src="../src/assets/box-gif.gif" alt="" />
+        <img src={GiftBox} alt="" />
         <span className="text-3xl font-bold animate-bounce">แกลองจิ้มกล่องของขวัญดูสิ่</span>
       </div>
 

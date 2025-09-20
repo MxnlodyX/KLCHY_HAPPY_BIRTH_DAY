@@ -1,7 +1,7 @@
 import './Styles/Menu.css'
 import { ArrowLeft } from "lucide-react"; // icon library lucide-react
 import { useNavigate } from "react-router-dom";
-
+import {MindPhoto} from '../src/assets/mind-hbd.png';
 export default function Wish() {
     const navigate = useNavigate();
 
@@ -15,7 +15,7 @@ export default function Wish() {
                 <div className="w-full md:w-2/5 bg-gradient-to-b from-pink-400 to-purple-500 flex items-center justify-center p-8">
                     <div className="w-45 h-full bg-white rounded-lg shadow-lg flex items-center justify-center border-4 border-white overflow-hidden">
                         <img
-                            src="../src/assets/mind-hbd.png"
+                            src={MindPhoto}
                             alt="Birthday Celebration"
                             className="w-full h-full object-cover"
                         />

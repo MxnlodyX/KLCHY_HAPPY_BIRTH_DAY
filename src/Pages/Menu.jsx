@@ -1,21 +1,23 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-
+import {happybirthday} from '../src/assets/—Pngtree—vase flowers cute handdrawn icon_21113379.PNG';
+import {GiftVideo} from '../src/assets/5260065.png';
+import {notepage} from '../src/assets/—Pngtree—cute lovely envelope cartoon_7931141.png';
 export default function Menu() {
 
   // ข้อมูลของขวัญ
   const gifts = [
     {
       route: "happybirthday",
-      img: "../src/assets/—Pngtree—vase flowers cute handdrawn icon_21113379.PNG",
+      img: {happybirthday},
     },
     {
       route: "GiftVideo",
-      img: "../src/assets/5260065.png",
+      img: {GiftVideo},
     },
     {
       route: "notepage",
-      img: "../src/assets/—Pngtree—cute lovely envelope cartoon_7931141.png",
+      img: {notepage},
     },
   ];
 
