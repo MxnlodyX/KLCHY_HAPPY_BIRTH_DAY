@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
-import {Cake} from './src/assets/a3f186387eb5237d79bd9b520c681ada.gif'
+import {Cake} from './assets/a3f186387eb5237d79bd9b520c681ada.gif'
 import './Pages/Styles/Menu.css'
 import './App.css'
 export default function App() {

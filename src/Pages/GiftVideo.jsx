@@ -1,6 +1,6 @@
 import { useState } from "react";
 import MisicPopUp from './Music';
-import {GiftBox} from '../src/assets/box-gif.gif';
+import {GiftBox} from '../assets/box-gif.gif';
 export default function GiftVideo() {
   const [isOpen, setIsOpen] = useState(false);
   const [popUp, setClosePopup] = useState(true);
