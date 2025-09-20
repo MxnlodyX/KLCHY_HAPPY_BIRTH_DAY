@@ -10,7 +10,7 @@ import NotePage from './Pages/Note.jsx'
 import MemorySite from './Pages/MemorySite.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter basename="/KLCHY_HAPPY_BIRTH_DAY">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/menupage" element={<Menu />} />
@@ -18,7 +18,6 @@ createRoot(document.getElementById('root')).render(
         <Route path="/GiftVideo" element={<GiftVideo />} />
         <Route path="/NotePage" element={<NotePage />} />
         <Route path="/MemorySite" element={<MemorySite />} />
-
       </Routes>
     </HashRouter>
   </StrictMode>,
