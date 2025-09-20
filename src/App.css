@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.pink-gradient {
+  background-image: linear-gradient(to top, #fadeed 0%, #feace4 99%, #feace4 100%);
+}
+
+.double-layer {
+  text-shadow: 2px 2px 0 #000;
+  /* สีชั้นล่าง (ดำ) */
+}
+
+.outline-text {
+  text-shadow:
+    1.5px 1.5px 0 #eb5baa,
+    -1.5px 1.5px 0 #eb5baa,
+    1.5px -1.5px 0 #eb5baa,
+    -1.5px -1.5px 0 #eb5baa;
+}
+
+.outline-text-2 {
+  text-shadow:
+    1px 1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px -1px 0 #000000;
+}
