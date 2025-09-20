@@ -1,7 +1,7 @@
 import './Styles/Menu.css'
 import { ArrowLeft } from "lucide-react"; // icon library lucide-react
 import { useNavigate } from "react-router-dom";
-import {MindPhoto} from '../src/assets/mind-hbd.png';
+import {MindPhoto} from '../assets/mind-hbd.png';
 export default function Wish() {
     const navigate = useNavigate();
 
